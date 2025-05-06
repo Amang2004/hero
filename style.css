@@ -6,25 +6,72 @@
     background-position:center center ;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: ;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    ;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+.herosection h1 {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p  {
+    color: azure;
+} 
+
+.card h2 {
+    color: bisque;
+}
+
+.waitlist {
 
 }
 
 .navbar { 
-    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* justify-content: center;
     align-items: center;
+    display: flex; */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
 
 }
 
+nav ul {
+    display: flex; /* FIX: use space, not dot */
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
 .card {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 2rem;
     border-radius: 1rem;
     backdrop-filter: blur(10px);
+    text-align: center;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
